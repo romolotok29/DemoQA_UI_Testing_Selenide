@@ -14,11 +14,7 @@ import static com.codeborne.selenide.Condition.*;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
-
-public class Elements {
-  
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.*;
 
 public class Elements extends BaseTest {
 
@@ -179,4 +175,5 @@ public class Elements extends BaseTest {
         // Убедитесь, что класс "text-danger" добавлен
         assert changedClass;
     }
+
 }
