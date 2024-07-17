@@ -1,5 +1,6 @@
 package tests;
 
+import baseEntities.BaseTest;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
@@ -10,10 +11,16 @@ import java.io.IOException;
 import java.util.Base64;
 
 import static com.codeborne.selenide.Condition.*;
+
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
 public class Elements {
+  
+import static com.codeborne.selenide.Selectors.byText;
+import static com.codeborne.selenide.Selenide.*;
+
+public class Elements extends BaseTest {
 
     @Test
     public void textBoxTest() {
